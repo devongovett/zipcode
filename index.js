@@ -5,7 +5,7 @@ var trie = null;
  * Parses zip_codes.csv and creates a trie for fast lookups
  */
 function loadData() {
-  var data = fs.readFileSync('./zip_codes.csv', 'utf8');
+  var data = fs.readFileSync(__dirname + '/zip_codes.csv', 'utf8');
   var lines = data.split('\r\n');
   var trie = {};
 
