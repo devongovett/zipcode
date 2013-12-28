@@ -1,0 +1,24 @@
+{
+  "name": "zipcode",
+  "version": "0.1.0",
+  "description": "Easily lookup city and state for a US zipcode",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devongovett/zipcode.git"
+  },
+  "keywords": [
+    "zip",
+    "usps",
+    "city",
+    "state"
+  ],
+  "author": "Devon Govett <devongovett@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devongovett/zipcode/issues"
+  },
+  "homepage": "https://github.com/devongovett/zipcode"
+}
